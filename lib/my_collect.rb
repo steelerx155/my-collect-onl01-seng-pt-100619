@@ -8,7 +8,7 @@ def my_collect(hello)
    empty_array << yield(hello[x])
       x += 1
       empty_array << yield(languages[x])
-      languages.upcase
+      languages.upcase!
       x += 1
         end
         empty_array
